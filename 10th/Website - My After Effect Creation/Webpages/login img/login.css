@@ -1,0 +1,253 @@
+/*css */
+
+/*body*/
+
+
+*:hover{
+
+  user-select: none;
+
+
+}
+body{
+    margin: 0;
+
+    background-image:url(img10.JPG);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+
+
+
+/*header*/
+
+.login-box{
+
+    margin-top: 50px;
+   
+}
+
+.p1{
+    text-align: center;
+    font-family: potra;
+    font-size: 60px;
+    color:#1d0909;
+    letter-spacing: 20px;
+    word-spacing: -20px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+    line-height: 65px;
+     margin-bottom: 20px;
+     
+   
+}
+
+
+
+
+
+
+
+
+
+.img{
+    margin-top:-50px ;
+    margin-bottom:0px ;
+    margin-right: 23px;
+
+}
+
+
+
+
+#mainheader{
+
+ background-repeat: no-repeat;
+
+
+
+    background-color: rgb(211, 48, 98) ;
+    padding: 5px;
+    padding-top:20px ;
+    margin-bottom: 150px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.7);
+    
+
+ }
+
+
+
+
+
+/* nav */
+
+.well{
+
+       margin-bottom:-100px;
+      text-align: center;
+    font-family: potra;
+    font-size: 27px;
+    color:rgb(211, 58, 98);
+    letter-spacing: 11px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.9);  
+    
+}
+.well{
+     transition: all 0.8s ease;
+}
+
+
+.well:hover{
+    color: rgb(185, 185, 185);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+
+/* form*/
+
+.my-form{
+    padding: 80px;
+
+}
+
+.form-group{
+
+ padding-bottom: 15px;
+
+}
+
+
+.submit button{
+    font-family:potra;
+    letter-spacing:2px;
+    font-size:20px ;
+    border-radius: 100px;
+    margin-bottom:50px ;
+   padding: 11px 5px ;
+    width: 9%;
+    background-color: rgb(52,52,52);
+    color: rgb(211,48,98);
+    border: none;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+    
+}
+.submit button:hover
+
+{   cursor: none;
+    color: rgb(0, 0, 0);
+    background-color:#d33062 ;
+}
+
+
+ .my-form input {
+    padding: 14px 20px ;
+     font-family: potra;
+     font-size: 25px;
+     background-color: rgb(52,52,52);
+     color: rgb(211,48,98);
+     letter-spacing:3px;
+     width: 21%;
+     border-radius:100px;
+     border: none;
+       box-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+}
+
+.my-form input[type="text"]{
+    margin-top: 20px;
+    margin-bottom: 15px ;
+}
+.my-form input[type="password"]{
+    
+    margin-bottom: 15px ;
+}
+
+input:hover{
+     cursor:none;
+    color: rgb(0, 0, 0);
+    background-color:#d33062 ;
+
+}
+.my-form input{
+    transition: all 0.8s ease;
+}
+
+.my-form :hover input {
+    transform: scale(1.1);
+}
+
+
+.submit button{
+    transition: all 0.8s ease;
+}
+
+.submit:hover button {
+    transform: scale(1.1);
+}
+
+
+input:focus{
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+
+
+
+
+
+
+/*footer*/
+
+
+footer{
+   
+   background-color: rgba(52,52,52,0.9);
+    color: rgb(211,48,98);
+    text-align: center;
+    width: 100%;
+    
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.9);
+     margin-bottom: -24px;
+  
+   margin-top: 200px
+    
+}
+
+
+
+
+footer .foo{
+    
+     font-size: 25px;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    font-family: potra;
+    padding-bottom: 10px; 
+    padding-top: 10px;
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

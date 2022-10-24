@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login </title>
+    
+    <link rel="stylesheet" type="text/css" href="login img/login.css"/>
+    
+    <link rel="icon" type="image/png" href="title icon/favicon.png"/>
+   
+
+</head>
+<body >
+
+<header id="mainheader">
+
+
+  <div class="container">
+
+
+
+        <p class="p1">
+         <img class="img"  src="login img/logo.png"/ width="10%" height="10%">
+
+
+
+<br>
+
+
+    
+        <span class="text1" id="tx">
+             Login to <br>My Site
+
+          </span>
+
+  
+
+
+  </p>
+
+
+ </div>
+
+
+
+
+</header>
+    
+
+        
+        
+<nav>
+     <h1 class="well">
+        
+        welcome
+    </h1>
+
+
+    </nav>
+    
+   
+
+
+
+
+
+<center>
+ <article class="login-box">
+
+    <form class="my-form" >
+     <section class="form-group">
+
+
+            <input type="text" placeholder="Enter username" id="rahul" />
+
+    </section>
+        <br>
+
+    <section class="form-group">
+
+
+            <input type="password" placeholder="Enter password" id="rahul2" />
+
+    </section>
+
+        <br>
+
+
+    <section class="submit">
+
+            <button type="button" value="Login"   onclick="javascript:validate(rahul.rahul2)" >
+              login
+           </button>
+
+     </section>
+
+        </form>
+     
+     
+     <section>
+     
+    <script type="text/javascript">
+function validate()
+{
+    if(   document.getElementById("rahul").value == "abc"
+       && document.getElementById("rahul2").value == "123" )
+    {
+        alert( "Correct Password" );
+        location.href="Home page.html";
+    }
+    else
+    {
+        alert( "Incorrect Password" );
+        location.href="fail.html";
+    }
+}
+</script>
+   
+     </section>
+     
+     
+     
+ </article>
+    
+</center>
+
+
+ <footer id="mainfooter">
+    <p class="foo" align="center">Copyright &copy; 2019 MY Website "My After effect Creations"</p>
+  
+   
+ </footer>
+
+</body>
+</html>
